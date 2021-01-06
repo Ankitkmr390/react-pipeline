@@ -1,7 +1,7 @@
 pipeline {
     /* insert Declarative Pipeline here */
 
-    
+    agent none
     environment{
         CI = 'true'
     }
